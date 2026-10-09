@@ -1,5 +1,5 @@
 import { Card, CardMedia, Paper } from "@mui/material";
-import { Alert, Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import chartericon from "../Allimages/charterverifyicon.png";
 import domesticicons from "../Allimages/domestic.png";

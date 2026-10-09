@@ -1,6 +1,5 @@
-import { Button, Paper, TextField, Typography } from "@mui/material";
-import { useState } from "react";
-import { Alert, Col, Container, Row } from "react-bootstrap";
+import { Button, Paper } from "@mui/material";
+import { Alert, Container } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
@@ -49,15 +48,6 @@ export function ReportOnline() {
         }
         else {
              navigate("/vehiclefir")
-        }
-    }
-    const handleFirgeneralThift=()=>{
-        if (isLoggedin===false) {
-            navigate("/login")
-
-        }
-        else {
-             navigate("/generalthift")
         }
     }
     const handleGeneralThiftFir=()=>{

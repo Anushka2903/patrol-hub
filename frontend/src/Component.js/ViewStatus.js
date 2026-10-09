@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Paper, Typography } from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import { Button, Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 export function ViewStatus() {
