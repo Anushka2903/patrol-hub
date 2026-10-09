@@ -1,5 +1,5 @@
 import { Card, Paper } from "@mui/material";
-import { Alert, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 export function IasProfile()
 {

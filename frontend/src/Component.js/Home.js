@@ -186,7 +186,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
@@ -194,7 +194,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal1}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
@@ -202,7 +202,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal2}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
@@ -210,7 +210,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal3}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
@@ -218,7 +218,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal4}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
@@ -226,7 +226,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
@@ -234,7 +234,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal3}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
@@ -242,7 +242,7 @@ export function Home() {
                         <div>
                            <img
                               src={policecarousal4}
-                              alt="Description of the image"
+                              alt="Police press release"
                               style={{ maxWidth: '100%', height: '200px' }}
                               className="img-fluid"
                            />
