@@ -5,7 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import '../App.css';
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "./Store/Slice/userSlice";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 export function NavigationBar() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
@@ -18,45 +18,45 @@ export function NavigationBar() {
   }
   return (
     <nav className="nav">
-      <a href="#" className="nav__brand">
+      <Link to="/" className="nav__brand">
         PatrolHub
-      </a>
+      </Link>
       <ul className={active}>
         <LinkContainer to="/">
           <li className="nav__item">
-            <a href="#" className="nav__link">
+            <Link to="/" className="nav__link">
               Home
-            </a>
+            </Link>
           </li>
         </LinkContainer>
         <LinkContainer to="/department">
           <li className="nav__item">
-            <a href="#" className="nav__link">
+            <Link to="/department" className="nav__link">
               City
-            </a>
+            </Link>
           </li>
         </LinkContainer>
         <LinkContainer to="/mycomplaints">
           <li className="nav__item">
-            <a href="#" className="nav__link">
+            <Link to="/mycomplaints" className="nav__link">
               MyComplaints
-            </a>
+            </Link>
           </li>
         </LinkContainer>
 
         <LinkContainer to="/news">
           <li className="nav__item">
-            <a href="#" className="nav__link">
+            <Link to="/news" className="nav__link">
               News
-            </a>
+            </Link>
           </li>
         </LinkContainer>
 
         <LinkContainer to="/contact">
           <li className="nav__item">
-            <a href="#" className="nav__link">
+            <Link to="/contact" className="nav__link">
               Contact
-            </a>
+            </Link>
           </li>
         </LinkContainer>
 

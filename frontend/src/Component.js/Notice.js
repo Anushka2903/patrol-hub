@@ -10,8 +10,8 @@ export function Notice() {
    const [show, setShow] = useState(false);
    const handleClose = () => setShow(false);
    const handleShow = () => setShow(true);
-   const [numPages, setNumPages] = useState(null);
-   const [pageNumber, setPageNumber] = useState(1);
+   const numPages = null;
+   const pageNumber = 1;
  
    console.log(state.data);
    return (

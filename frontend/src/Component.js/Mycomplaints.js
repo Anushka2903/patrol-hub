@@ -1,5 +1,5 @@
 import { Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Alert, Col, Container, Dropdown, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { signin } from "./ApiServices";
@@ -17,22 +17,21 @@ export function MyComplaints() {
   const [isnormalS, setisNormal] = useState(false);
   const [iskidnaping, setisKidnaping] = useState(false);
   const navigate=useNavigate();
-  const handleData = async () => {
+  const handleData = useCallback(async () => {
     const res = await signin(signData[0])
     // console.log(res.data);
     setdata(res.data.vehiclecomplaints)
     setKidnapingReportdata(res.data.kidnappingReport);
-    console.log(kidnapingReportdata[2]);
     setGeneralThift(res.data.generalThefts)
     //  console.log(res.data.vehiclecomplaints);
     // console.log(signData[0]);
-  }
+  }, [signData])
   useEffect(() =>{
     
     if(isLoggedin === true) {
       handleData();
     }
-  }, [])
+  }, [handleData, isLoggedin])
   // const handleSelect = (eventKey, event) => {
   //   // Update the state with the selected item
   //   setSelectedItem(eventKey);
