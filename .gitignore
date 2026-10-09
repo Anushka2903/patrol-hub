@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+*/node_modules/
+
+# environment secrets
+.env
+*.env
+!.env.example
+
+# frontend build output
+build/
+frontend/build/
+
+# logs and crash dumps
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.stackdump
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
